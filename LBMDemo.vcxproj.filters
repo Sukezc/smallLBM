@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="stream.cu">
+      <Filter>cudafile</Filter>
+    </CudaCompile>
+    <CudaCompile Include="collision.cu">
+      <Filter>cudafile</Filter>
+    </CudaCompile>
+    <CudaCompile Include="macrography.cu">
+      <Filter>cudafile</Filter>
+    </CudaCompile>
+    <CudaCompile Include="boundary.cu">
+      <Filter>cudafile</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{5af64462-ba42-4256-b056-a25530278ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cudafile">
+      <UniqueIdentifier>{921d0165-b0fd-4165-81bb-eb53554afd27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mesh.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsfield.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="macrography.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="boundary.h">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
