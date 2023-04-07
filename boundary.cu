@@ -79,6 +79,7 @@ namespace lbm
 						Reversebase2 << <X, delta1 >> >
 						((double*)distri[hash[i]]->Dptr() + start, (double*)distri[i]->Dptr() + start,
 							(position % 2 ? Xwidth : 1),(position % 2 ? Ywidth : Xwidth) - 2);
+
 					}
 				}
 
